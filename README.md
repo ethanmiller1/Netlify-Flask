@@ -23,6 +23,13 @@ flask run --reload
 
 `freeze.py` contains all the routes for the project. Use `set FLASK_APP=freeze.py` to set it as Flask's entry point for the project. Flask serves the application to [localhost:5000](localhost:5000 "Port 5000") by default.
 
+### Deploy to Netlify
+
+Build command: `python freeze.py`.
+Public directory: `build`.
+
+![](https://miro.medium.com/max/700/1*kPMjcU3kUaoJ9DmamhlcRA.png)
+
 ## Contributors
 
 ---
